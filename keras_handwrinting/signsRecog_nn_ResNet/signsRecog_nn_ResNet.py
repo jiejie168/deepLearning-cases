@@ -4,7 +4,7 @@ the case is to train a signs of numbers between 0-5 based on residual neural net
 50 layers are used for training.
 # the detailed elaboration of this case is from the assignment of week2 of CNN.
 trainning accuracy : 0.9241
-test accuracy: 0.9083
+test accuracy: 0.9083  (when load_model, the test accuracy is reduced to 0.67)
 there is a little bit overfitting.
 the final fitted model is saved: "signsRec_ResNet.h5", size:270 M
 """
